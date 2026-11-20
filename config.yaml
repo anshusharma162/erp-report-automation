@@ -1,0 +1,42 @@
+# ERP report automation – configuration
+# Everything that changes between companies/months lives here, not in code.
+
+inputs:
+  sales:          "sales_*.*"          # one export per branch, CSV or XLSX
+  materials:      "material_master.*"
+  customers:      "customer_master.*"
+
+# ERP exports from different branches use different headers.
+# Map every variant to one standard name.
+column_aliases:
+  order_no:      ["Order No", "Sales Order", "SO Number", "order_no"]
+  line_no:       ["Line", "Item", "line_no"]
+  order_date:    ["Order Date", "Doc Date", "Posting Date", "order_date"]
+  customer_code: ["Customer", "Sold-To", "Cust Code", "customer_code"]
+  material_code: ["Material", "Material No.", "Item Code", "material_code"]
+  quantity:      ["Qty", "Order Qty", "Quantity", "quantity"]
+  unit_price:    ["Unit Price", "Net Price", "Rate", "unit_price"]
+  amount:        ["Net Value", "Amount", "Line Amount", "amount"]
+  status:        ["Status", "Doc Status", "status"]
+  branch:        ["Branch", "Plant", "Sales Office", "branch"]
+
+required_columns: [order_no, line_no, order_date, customer_code, material_code, quantity, unit_price, amount, status]
+
+# Validation rules. severity "error" -> row excluded from the report,
+# "warning" -> row kept but listed for review.
+rules:
+  - {name: missing_values,        type: not_null,   columns: [order_no, customer_code, material_code, quantity], severity: error}
+  - {name: duplicate_line,        type: unique,     columns: [order_no, line_no],                                severity: error}
+  - {name: non_positive_quantity, type: range,      column: quantity,   min: 0.0001,                           severity: error}
+  - {name: negative_price,        type: range,      column: unit_price, min: 0,                                severity: error}
+  - {name: invalid_status,        type: allowed,    column: status,     values: [OPEN, INVOICED, DELIVERED, CANCELLED], severity: error}
+  - {name: unknown_material,      type: lookup,     column: material_code, table: materials, key: material_code, severity: error}
+  - {name: unknown_customer,      type: lookup,     column: customer_code, table: customers, key: customer_code, severity: warning}
+  - {name: outside_period,        type: period,     column: order_date,                                        severity: error}
+  - {name: amount_mismatch,       type: amount,     tolerance: 0.01,                                           severity: warning}
+  - {name: unusually_large_line,  type: outlier,    column: amount,     z: 4,                                  severity: warning}
+
+report:
+  exclude_status: [CANCELLED]
+  top_customers: 15
+  currency: "₹"

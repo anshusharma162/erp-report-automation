@@ -1,0 +1,61 @@
+customer_code,customer_name,region,segment
+C0001,Customer 01 Pvt Ltd,South,OEM
+C0002,Customer 02 Pvt Ltd,South,OEM
+C0003,Customer 03 Pvt Ltd,North,OEM
+C0004,Customer 04 Pvt Ltd,South,Distributor
+C0005,Customer 05 Pvt Ltd,East,Distributor
+C0006,Customer 06 Pvt Ltd,North,Distributor
+C0007,Customer 07 Pvt Ltd,West,EPC Contractor
+C0008,Customer 08 Pvt Ltd,North,Distributor
+C0009,Customer 09 Pvt Ltd,South,EPC Contractor
+C0010,Customer 10 Pvt Ltd,West,EPC Contractor
+C0011,Customer 11 Pvt Ltd,West,EPC Contractor
+C0012,Customer 12 Pvt Ltd,North,EPC Contractor
+C0013,Customer 13 Pvt Ltd,South,OEM
+C0014,Customer 14 Pvt Ltd,West,OEM
+C0015,Customer 15 Pvt Ltd,South,Direct
+C0016,Customer 16 Pvt Ltd,South,EPC Contractor
+C0017,Customer 17 Pvt Ltd,South,Distributor
+C0018,Customer 18 Pvt Ltd,West,Distributor
+C0019,Customer 19 Pvt Ltd,East,Direct
+C0020,Customer 20 Pvt Ltd,West,EPC Contractor
+C0021,Customer 21 Pvt Ltd,South,Distributor
+C0022,Customer 22 Pvt Ltd,East,Distributor
+C0023,Customer 23 Pvt Ltd,North,OEM
+C0024,Customer 24 Pvt Ltd,South,Direct
+C0025,Customer 25 Pvt Ltd,South,EPC Contractor
+C0026,Customer 26 Pvt Ltd,South,Distributor
+C0027,Customer 27 Pvt Ltd,East,EPC Contractor
+C0028,Customer 28 Pvt Ltd,North,EPC Contractor
+C0029,Customer 29 Pvt Ltd,North,EPC Contractor
+C0030,Customer 30 Pvt Ltd,East,EPC Contractor
+C0031,Customer 31 Pvt Ltd,West,Direct
+C0032,Customer 32 Pvt Ltd,East,EPC Contractor
+C0033,Customer 33 Pvt Ltd,West,Distributor
+C0034,Customer 34 Pvt Ltd,North,Distributor
+C0035,Customer 35 Pvt Ltd,East,Distributor
+C0036,Customer 36 Pvt Ltd,South,Direct
+C0037,Customer 37 Pvt Ltd,North,OEM
+C0038,Customer 38 Pvt Ltd,East,OEM
+C0039,Customer 39 Pvt Ltd,East,EPC Contractor
+C0040,Customer 40 Pvt Ltd,North,Distributor
+C0041,Customer 41 Pvt Ltd,West,OEM
+C0042,Customer 42 Pvt Ltd,South,EPC Contractor
+C0043,Customer 43 Pvt Ltd,East,EPC Contractor
+C0044,Customer 44 Pvt Ltd,West,OEM
+C0045,Customer 45 Pvt Ltd,East,Distributor
+C0046,Customer 46 Pvt Ltd,South,OEM
+C0047,Customer 47 Pvt Ltd,West,EPC Contractor
+C0048,Customer 48 Pvt Ltd,East,Direct
+C0049,Customer 49 Pvt Ltd,North,Direct
+C0050,Customer 50 Pvt Ltd,North,Direct
+C0051,Customer 51 Pvt Ltd,North,Distributor
+C0052,Customer 52 Pvt Ltd,East,EPC Contractor
+C0053,Customer 53 Pvt Ltd,East,EPC Contractor
+C0054,Customer 54 Pvt Ltd,East,Direct
+C0055,Customer 55 Pvt Ltd,North,EPC Contractor
+C0056,Customer 56 Pvt Ltd,West,Direct
+C0057,Customer 57 Pvt Ltd,South,OEM
+C0058,Customer 58 Pvt Ltd,East,Distributor
+C0059,Customer 59 Pvt Ltd,West,Distributor
+C0060,Customer 60 Pvt Ltd,South,EPC Contractor

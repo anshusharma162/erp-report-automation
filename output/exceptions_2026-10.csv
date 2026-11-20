@@ -1,0 +1,190 @@
+row_id,rule,severity,detail,source_file,source_row,order_no,line_no
+44,missing_values,error,blank: customer_code,sales_chennai_2026-10.csv,46,CHE100021,10
+82,missing_values,error,blank: customer_code,sales_chennai_2026-10.csv,84,CHE100035,10
+502,missing_values,error,blank: customer_code,sales_delhi_2026-10.csv,7,DEL300003,20
+602,missing_values,error,blank: customer_code,sales_delhi_2026-10.csv,107,DEL300046,10
+1005,missing_values,error,blank: customer_code,sales_pune_2026-10.xlsx,136,PUN200050,10
+1222,missing_values,error,blank: customer_code,sales_pune_2026-10.xlsx,353,PUN200133,40
+495,duplicate_line,error,duplicate of an earlier line CHE100037/20,sales_chennai_2026-10.csv,497,CHE100037,20
+496,duplicate_line,error,duplicate of an earlier line CHE100102/20,sales_chennai_2026-10.csv,498,CHE100102,20
+869,duplicate_line,error,duplicate of an earlier line DEL300064/40,sales_delhi_2026-10.csv,374,DEL300064,40
+870,duplicate_line,error,duplicate of an earlier line DEL300076/20,sales_delhi_2026-10.csv,375,DEL300076,20
+1337,duplicate_line,error,duplicate of an earlier line PUN200113/30,sales_pune_2026-10.xlsx,468,PUN200113,30
+1338,duplicate_line,error,duplicate of an earlier line PUN200168/20,sales_pune_2026-10.xlsx,469,PUN200168,20
+40,non_positive_quantity,error,quantity = -11,sales_chennai_2026-10.csv,42,CHE100017,20
+369,non_positive_quantity,error,quantity = -6,sales_chennai_2026-10.csv,371,CHE100144,40
+533,non_positive_quantity,error,quantity = -19,sales_delhi_2026-10.csv,38,DEL300015,40
+788,non_positive_quantity,error,quantity = -3,sales_delhi_2026-10.csv,293,DEL300120,10
+1295,non_positive_quantity,error,quantity = -15,sales_pune_2026-10.xlsx,426,PUN200163,40
+1298,non_positive_quantity,error,quantity = -11,sales_pune_2026-10.xlsx,429,PUN200164,30
+43,unknown_material,error,"material_code 0       PUM-0012
+1       PUM-0009
+2       MOT-0013
+3       PUM-0004
+4       MOT-0004
+          ...   
+1334    VAL-0005
+1335    PUM-0010
+1336    PUM-0011
+1337    MOT-0014
+1338    PUM-0005
+Name: material_code, Length: 1339, dtype: str not in materials master",sales_chennai_2026-10.csv,45,CHE100020,10
+476,unknown_material,error,"material_code 0       PUM-0012
+1       PUM-0009
+2       MOT-0013
+3       PUM-0004
+4       MOT-0004
+          ...   
+1334    VAL-0005
+1335    PUM-0010
+1336    PUM-0011
+1337    MOT-0014
+1338    PUM-0005
+Name: material_code, Length: 1339, dtype: str not in materials master",sales_chennai_2026-10.csv,478,CHE100186,10
+523,unknown_material,error,"material_code 0       PUM-0012
+1       PUM-0009
+2       MOT-0013
+3       PUM-0004
+4       MOT-0004
+          ...   
+1334    VAL-0005
+1335    PUM-0010
+1336    PUM-0011
+1337    MOT-0014
+1338    PUM-0005
+Name: material_code, Length: 1339, dtype: str not in materials master",sales_delhi_2026-10.csv,28,DEL300011,10
+696,unknown_material,error,"material_code 0       PUM-0012
+1       PUM-0009
+2       MOT-0013
+3       PUM-0004
+4       MOT-0004
+          ...   
+1334    VAL-0005
+1335    PUM-0010
+1336    PUM-0011
+1337    MOT-0014
+1338    PUM-0005
+Name: material_code, Length: 1339, dtype: str not in materials master",sales_delhi_2026-10.csv,201,DEL300088,10
+1229,unknown_material,error,"material_code 0       PUM-0012
+1       PUM-0009
+2       MOT-0013
+3       PUM-0004
+4       MOT-0004
+          ...   
+1334    VAL-0005
+1335    PUM-0010
+1336    PUM-0011
+1337    MOT-0014
+1338    PUM-0005
+Name: material_code, Length: 1339, dtype: str not in materials master",sales_pune_2026-10.xlsx,360,PUN200138,20
+1287,unknown_material,error,"material_code 0       PUM-0012
+1       PUM-0009
+2       MOT-0013
+3       PUM-0004
+4       MOT-0004
+          ...   
+1334    VAL-0005
+1335    PUM-0010
+1336    PUM-0011
+1337    MOT-0014
+1338    PUM-0005
+Name: material_code, Length: 1339, dtype: str not in materials master",sales_pune_2026-10.xlsx,418,PUN200160,40
+200,unknown_customer,warning,"customer_code 0       C0030
+1       C0030
+2       C0030
+3       C0027
+4       C0027
+        ...  
+1334    C0059
+1335    C0059
+1336    C0059
+1337    C0019
+1338    C0040
+Name: customer_code, Length: 1339, dtype: str not in customers master",sales_chennai_2026-10.csv,202,CHE100081,30
+319,unknown_customer,warning,"customer_code 0       C0030
+1       C0030
+2       C0030
+3       C0027
+4       C0027
+        ...  
+1334    C0059
+1335    C0059
+1336    C0059
+1337    C0019
+1338    C0040
+Name: customer_code, Length: 1339, dtype: str not in customers master",sales_chennai_2026-10.csv,321,CHE100128,10
+558,unknown_customer,warning,"customer_code 0       C0030
+1       C0030
+2       C0030
+3       C0027
+4       C0027
+        ...  
+1334    C0059
+1335    C0059
+1336    C0059
+1337    C0019
+1338    C0040
+Name: customer_code, Length: 1339, dtype: str not in customers master",sales_delhi_2026-10.csv,63,DEL300025,30
+615,unknown_customer,warning,"customer_code 0       C0030
+1       C0030
+2       C0030
+3       C0027
+4       C0027
+        ...  
+1334    C0059
+1335    C0059
+1336    C0059
+1337    C0019
+1338    C0040
+Name: customer_code, Length: 1339, dtype: str not in customers master",sales_delhi_2026-10.csv,120,DEL300051,20
+1060,unknown_customer,warning,"customer_code 0       C0030
+1       C0030
+2       C0030
+3       C0027
+4       C0027
+        ...  
+1334    C0059
+1335    C0059
+1336    C0059
+1337    C0019
+1338    C0040
+Name: customer_code, Length: 1339, dtype: str not in customers master",sales_pune_2026-10.xlsx,191,PUN200074,10
+1268,unknown_customer,warning,"customer_code 0       C0030
+1       C0030
+2       C0030
+3       C0027
+4       C0027
+        ...  
+1334    C0059
+1335    C0059
+1336    C0059
+1337    C0019
+1338    C0040
+Name: customer_code, Length: 1339, dtype: str not in customers master",sales_pune_2026-10.xlsx,399,PUN200154,20
+320,outside_period,error,date 2026-09-28 outside Oct 2026,sales_chennai_2026-10.csv,322,CHE100128,20
+413,outside_period,error,date 2026-09-28 outside Oct 2026,sales_chennai_2026-10.csv,415,CHE100162,20
+726,outside_period,error,date 2026-09-28 outside Oct 2026,sales_delhi_2026-10.csv,231,DEL300099,10
+850,outside_period,error,date 2026-09-28 outside Oct 2026,sales_delhi_2026-10.csv,355,DEL300141,30
+961,outside_period,error,date 2026-09-28 outside Oct 2026,sales_pune_2026-10.xlsx,92,PUN200033,20
+1180,outside_period,error,date 2026-09-28 outside Oct 2026,sales_pune_2026-10.xlsx,311,PUN200119,30
+40,amount_mismatch,warning,amount 15299.13 ≠ qty×price -168290.43,sales_chennai_2026-10.csv,42,CHE100017,20
+58,amount_mismatch,warning,amount 37794.04 ≠ qty×price 34358.22,sales_chennai_2026-10.csv,60,CHE100027,20
+205,amount_mismatch,warning,amount 189167.12 ≠ qty×price 171970.11,sales_chennai_2026-10.csv,207,CHE100083,10
+369,amount_mismatch,warning,amount 13846.45 ≠ qty×price -16615.74,sales_chennai_2026-10.csv,371,CHE100144,40
+533,amount_mismatch,warning,amount 41558.79 ≠ qty×price -112802.43,sales_delhi_2026-10.csv,38,DEL300015,40
+751,amount_mismatch,warning,amount 16987.01 ≠ qty×price 15442.74,sales_delhi_2026-10.csv,256,DEL300108,20
+788,amount_mismatch,warning,amount 3038.16 ≠ qty×price -2278.62,sales_delhi_2026-10.csv,293,DEL300120,10
+859,amount_mismatch,warning,amount 159010.28 ≠ qty×price 144554.8,sales_delhi_2026-10.csv,364,DEL300143,40
+942,amount_mismatch,warning,amount 313612.11 ≠ qty×price 285101.92,sales_pune_2026-10.xlsx,73,PUN200027,30
+1060,amount_mismatch,warning,amount 406348.76 ≠ qty×price 369407.96,sales_pune_2026-10.xlsx,191,PUN200074,10
+1295,amount_mismatch,warning,amount 108984.89 ≠ qty×price -233539.05,sales_pune_2026-10.xlsx,426,PUN200163,40
+1298,amount_mismatch,warning,amount 89257.74 ≠ qty×price -75525.78,sales_pune_2026-10.xlsx,429,PUN200164,30
+348,unusually_large_line,warning,amount 570040.0 > 4σ from mean,sales_chennai_2026-10.csv,350,CHE100138,40
+409,unusually_large_line,warning,amount 622321.0 > 4σ from mean,sales_chennai_2026-10.csv,411,CHE100161,10
+506,unusually_large_line,warning,amount 589423.0 > 4σ from mean,sales_delhi_2026-10.csv,11,DEL300004,30
+568,unusually_large_line,warning,amount 555167.0 > 4σ from mean,sales_delhi_2026-10.csv,73,DEL300028,10
+584,unusually_large_line,warning,amount 553190.0 > 4σ from mean,sales_delhi_2026-10.csv,89,DEL300036,30
+763,unusually_large_line,warning,amount 659473.0 > 4σ from mean,sales_delhi_2026-10.csv,268,DEL300112,10
+853,unusually_large_line,warning,amount 571187.0 > 4σ from mean,sales_delhi_2026-10.csv,358,DEL300142,20
+1100,unusually_large_line,warning,amount 572017.0 > 4σ from mean,sales_pune_2026-10.xlsx,231,PUN200090,30
+1190,unusually_large_line,warning,amount 555286.0 > 4σ from mean,sales_pune_2026-10.xlsx,321,PUN200122,10
